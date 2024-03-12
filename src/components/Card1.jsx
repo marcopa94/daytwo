@@ -8,9 +8,9 @@ import { Container } from "react-bootstrap";
 function Card1() {
   return (
     <Container>
-      <Row className="gy-5">
+      <Row className="mt-5 gy-5">
         {items.map((libro) => (
-          <Col lg={3}>
+          <Col lg={3} key={libro.asin}>
             <Card style={{ height: "100%" }} id="card">
               <Card.Img variant="top" src={libro.img} />
               <Card.Body className="d-flex flex-column ">

@@ -9,7 +9,7 @@ function Alert1() {
         in the world."
       </p>
       <hr />
-      <p className="mb-0 text-center">
+      <p className="mb-2 text-center">
         {" "}
         Whenever you need to, be sure to use margin utilities to keep things nice and tidy.
       </p>
