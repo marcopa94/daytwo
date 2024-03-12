@@ -3,10 +3,16 @@ import Alert from "react-bootstrap/Alert";
 function Alert1() {
   return (
     <Alert variant="success">
-      <Alert.Heading>Hey, nice to see you</Alert.Heading>
-      <p>we are happing, if you read this message because you're welcome in a best library in the world</p>
+      <Alert.Heading className="text-center">Welcome, ladies and gentlemen.</Alert.Heading>
+      <p className="text-center">
+        "We are delighted that you are reading this message, as it signifies your welcome to one of the finest libraries
+        in the world."
+      </p>
       <hr />
-      <p className="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+      <p className="mb-0 text-center">
+        {" "}
+        Whenever you need to, be sure to use margin utilities to keep things nice and tidy.
+      </p>
     </Alert>
   );
 }

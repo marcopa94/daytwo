@@ -4,3 +4,23 @@
 .btn {
   bottom: 0;
 }
+#card {
+  box-shadow: 5px 5px 10px 2px #333333;
+  transition: transform 0.8s;
+}
+
+#card:hover {
+  scale: 1.02;
+  cursor: pointer;
+  background-color: rgb(248, 255, 198);
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 6.5rem;
+}
+h1 + p {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
