@@ -24,3 +24,7 @@ h1 + p {
   letter-spacing: 3px;
   font-weight: 200;
 }
+
+.true {
+  background-color: red;
+}
