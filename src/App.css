@@ -28,3 +28,8 @@ h1 + p {
 .true {
   background-color: red;
 }
+.card {
+  box-shadow: 5px 5px 10px 2px #333333;
+  -webkit-box-shadow: 5px 5px 10px 2px #333333;
+  -moz-box-shadow: 5px 5px 10px 2px #333333;
+}
